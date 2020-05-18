@@ -167,9 +167,9 @@ export default {
         var urlka = ''
         if(this.url == '') urlka = 'https://www.sme.sk/rss-title'
         else urlka = this.url;
-        axios.post(`https://webp.itprof.sk/fetchurl`, 
+        axios.post(`https://cors-anywhere.herokuapp.com/${urlka}`, 
         {
-          'url': urlka,
+          // 'url': urlka,
         },
         {
           headers: {
