@@ -167,7 +167,7 @@ export default {
         var urlka = ''
         if(this.url == '') urlka = 'https://www.sme.sk/rss-title'
         else urlka = this.url;
-        axios.post(`http://webp.itprof.sk:8000/fetchurl`, 
+        axios.post(`https://webp.itprof.sk/fetchurl`, 
         {
           'url': urlka,
         },
