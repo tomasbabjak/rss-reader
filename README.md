@@ -4,6 +4,7 @@
 
 **Vyvojove prostredie:** Vue.js, Bootstrap-Vue
 
+**Github repository:** https://github.com/tomasbabjak/rss-reader
 ------
 
 ## Zadanie 2 - CI/CD
