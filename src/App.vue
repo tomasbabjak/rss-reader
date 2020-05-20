@@ -40,7 +40,7 @@
               </b-col>
               <b-col cols='2' md='2'>
                 <b-button v-on:click="getData">
-                  Reload
+                  Obnoviť
                 </b-button>
               </b-col>
             </b-row>
